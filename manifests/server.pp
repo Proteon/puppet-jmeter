@@ -8,7 +8,6 @@
 #
 class jmeter::server (
   $server_ip = '0.0.0.0',
-  $extra_startup_args = '',
 ) inherits ::jmeter::params {
 
   include jmeter
